@@ -1,0 +1,161 @@
+*,*::after,*::before{
+    margin: 0;
+}
+h1{
+    color: rgb(10, 153, 189);
+}
+p{
+    color: white;
+    font-size: larger;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    padding-left: 20px;
+}
+
+#nav-bar{
+    background-color: rgb(90, 85, 85);
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+.logo{
+    width: 60%;
+    padding-left: 15px;
+}
+.left{
+    width: 40%;
+    display: flex;
+    /* padding-top: 15px; */
+}
+.free-trial{
+    width: 70%;
+    padding-top: 15px;
+}
+.hamburger{
+    width: 30%;
+    padding-top: 10px;
+}
+.menu{
+    display: none;
+}
+.menuitems{
+    display: none;
+}
+.contact-sales{
+    display: none;
+}
+button{
+    background-color:transparent;
+    padding: 5px 10px;
+    border: 2px solid white;
+}
+button:hover{
+    background-color: rgb(10, 153, 189);
+}
+.hidden{
+    display: none;
+}
+#drop img{
+    width: 20px;
+    padding-left: 5px;
+    vertical-align: middle;
+}
+/* Tablet */
+@media screen and (min-width: 700px) {
+    .menu {
+        display: block;
+        /* padding-right: 15px; */
+        text-transform: capitalize;
+        padding-top: 15px;
+    }
+    .vend-button{
+        display: flex;
+    }
+    .freetrial{
+        width: 33%;
+        padding-left: 10px;
+    }
+    .contactsale{
+        width: 33%;
+        padding-left: 10px;
+    }
+    .getsupport{
+        width: 33%;
+        padding-left: 10px;
+    }
+
+
+}
+/* Desktop */
+@media screen and (min-width:1160px){
+    .menuitems{
+        display: block;
+        width: 60%;
+        padding: 15px;
+    }
+    .logo{
+        width: 20%;
+    }
+    .left{
+        width: 20%;
+
+    }
+    .contact-sales{
+        display: block;
+        width:50% ;
+        padding-top: 15px;
+    }
+    .free-trial{
+        width: 50%;
+    }
+    .free-trial button{
+        background-color: rgb(10, 153, 189);
+        border: unset;
+    }
+    .hamburger{
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+    .dropdown{
+        display: none;
+    }
+  
+}
+/* Drop down */
+.dropdown{
+    width: 100%;
+    background-color:whitesmoke;
+    margin: 0 auto;
+}
+.vend{
+    border: 1px solid transparent;
+    padding: 10px;
+}
+.vend a{
+    color: black;
+}
+#dropdownmenu img{
+    width: 15px;
+    padding-left: 5px;
+    vertical-align: middle;
+    float: right;
+}
+.vend-button{
+    margin: auto;
+    width: 90%;
+}
+.vend-button button{
+    width:100%;
+    border: 1px solid rgb(10, 153, 189);
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.freetrial button{
+    background-color: rgb(10, 153, 189);
+    
+}
