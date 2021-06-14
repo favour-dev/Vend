@@ -1,5 +1,6 @@
 *,*::after,*::before{
     margin: 0;
+    padding: 0;
 }
 h1{
     color: rgb(61, 143, 7);
@@ -98,7 +99,7 @@ a{
 }
 .section2-mobile{
     background-color: rgb(10, 10, 66);
-    margin-top: 20px;
+    margin: 20px 0 ;
 }
 .optimize{
     width: 80%;
@@ -119,10 +120,49 @@ a{
 .desktop-multistore{
     display: none;
 }
+.mobile-multistore{
+    padding-bottom: 20px;
+    font-size: large;
+}
 .desktop-upgrade{
     display: none;
 }
 
+/* section two */
+.section-two{
+    background-color: white;
+    margin-top: 15px;
+}
+.star p{
+    font-size: smaller;
+    font-style: italic;
+    padding-top: 10px;
+    text-align: center;
+}
+.content-two{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.star img{
+    width: 15%;
+    padding-top: 10px;
+}
+.review{
+    width: 80%;
+    margin: 0 auto;
+    padding:20px 0;
+    text-align: center;
+}
+.review p{
+    font-size: large;
+    padding-top: 20px;
+}
+.review h5{
+    font-size: x-large;
+    color: rgb(6, 6, 43);
+}
 
 
 
@@ -287,6 +327,11 @@ a{
         display: none;
     }
       /* section one */
+      .section-one{
+          width: 80%;
+          margin: 0 auto;
+          
+      }
     .mobile-img{
         display: none;
     }
@@ -296,13 +341,16 @@ a{
     .retail{
         position: absolute;
         top: 100px;
-        left: 35px;
+        left: 130px;
         width: 30%;
-        text-align: left;
+        text-align: left; 
+    }
+    .retail p{
+        font-size: x-large;
     }
     .retail h2{
-        font-size: xx-large;
-        width: 90%;
+        font-size: 7.5vh;
+        width: 100%;
         padding-bottom: 10px;
     }
     .try{
@@ -311,8 +359,8 @@ a{
 
     .section2-mobile{
         position: absolute;
-        bottom: 100px;
-        right: 70px;
+        top: 300px;
+        right: 150px;
         width: 25%;
         border-radius: 50%;
         padding: 10px;
@@ -345,7 +393,46 @@ a{
         width: 80%;
         padding: 10px 0;
     }
+    
+
+        /* section two */
+    .section-two{
+        background-color: white;
+        margin-top: 30px;
+    }
+    .star p{
+        font-size: large;
+        font-style: italic;
+        padding-top: 10px;
+        text-align: center;
+        margin-right: 20px;
         
+    }
+    .content-two{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        column-gap: 20px;
+        
+    }
+    .star img{
+        padding-right: 19px;
+        width: 10%;
+    }
+    .review{
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+   .review h5{
+       font-size: xx-large;
+       color: rgb(6, 6, 43);
+   }
+   .review p{
+        font-size: 3.5vh;
+   }
+
 }
 
 
